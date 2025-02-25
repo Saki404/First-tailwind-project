@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+    <title>TAILWIND PROJECT</title>
+</head>
+
+<body class="uppercase">
+    <nav class="flex rounded-lg bg-gray-600 text-white mx-10 px-11">
+        <h1 class="container text-left font-bold text-3xl px- py-5">portfolio</h1>
+        <div class="container text-xl text-right font-bold">
+            <span class="inline-block w-32 h-16 rounded-lg py-6">about</span>
+            <span class="inline-block w-32 h-16 rounded-lg">contact</span>
+        </div>
+    </nav>
+
+    <div class="container rounded-lg mx-10 pr-2 py-11">
+        <h1 class="text-center text-4xl font-bold text-gray-700 relative">
+            portfolio
+            <span class="block w-40 h-1 bg-gray-700 mx-auto mt-2"></span>
+        </h1>
+    </div>
+
+
+    <div class="flex flex-wrap justify-center items-center gap-4 mt-1 font-bold text-3xl">
+        <span class="w-64 h-40 bg-purple-500 rounded-lg shadow-md flex items-center justify-center">1</span>
+        <span class="w-64 h-40 bg-blue-300 rounded-lg shadow-md flex items-center justify-center">1</span>
+        <span class="w-64 h-40 bg-black rounded-lg shadow-md flex items-center justify-center text-white">1</span>
+    </div>
+
+    <div class="flex flex-wrap justify-center items-center gap-4 mt-10 font-bold text-3xl">
+        <span class="w-64 h-40 bg-blue-200 rounded-lg shadow-md flex items-center justify-center">1</span>
+        <span class="w-64 h-40 bg-blue-800 rounded-lg shadow-md flex items-center justify-center">1</span>
+        <span class="w-64 h-40 bg-purple-300 rounded-lg shadow-md flex items-center justify-center">1</span>
+    </div>
+
+    <!-- <div class="container bg-green-400 mx-10 my-20 py-10 text-white ">
+        <h1 class="font-bold uppercase text-3xl text-center">about
+           <span class="border-b-2 border-white-1 w-32 center "></span>
+        </h1>
+        <div class="flex-right w-70 h-40 text-center">
+            <span class="w">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the
+                complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy
+                customization.
+            </span>
+
+            <span class="w">Freelancer is a free bootstrap theme created by Start Bootstrap. The      download includes the
+                complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy
+                customization.
+            </span>
+        </div>
+    </div> -->
+
+    <section class="bg-green-500 text-white py-12 px-6 mt-12 mx-10 text-center relative">
+        <h1 class="font-bold uppercase text-4xl">about</h1>
+        <div class="flex items-center justify-center mb-6">
+            <div class="w-10 border-b-4 border-white"></div>
+            <span class="mx-1 text-xl white">⭐</span>
+            <div class="w-10 border-b-4 border-white"></div>
+        </div>
+
+        <div class="max-w-4xl mx-auto capitalize">
+            <div class="flex flex-col md:flex-row gap-6 items-center md:items-start">
+                <p class="md:w-1/2">
+                    Freelancer is a free bootstrap theme created by Start Bootstrap.
+                    The download includes the complete source files including HTML, CSS,
+                    and JavaScript as well as optional SASS stylesheets for easy customization.
+                </p>
+                <p class="md:w-1/2">
+                    You can create your own custom avatar for the masthead, change the icon in the dividers,
+                    and add your email address to the contact form to make it fully functional!
+                </p>
+            </div>
+        </div>
+
+        <button
+            class=" text-white rounded-lg capitalize my-9 px-6 py-3 border-2 border-white text-white rounded-3xl hover:bg-transparent hover:px-9 hover:text-black  hover:border-black active:bg-blue-500 transition 1s ease-out z-index-1 ">
+            free download !
+        </button>
+
+    </section>
+
+    <section class="bg-white mx-10 px-9 py-20 text-gray-700">
+        <h1 class="text-center uppercase text-3xl font-bold">contact</h1>
+        <div class="flex items-center justify-center mb-6 color-gray-700">
+            <div class="w-16 border-b-4 border-gray-700"></div>
+            <span class="mx-1 text-xl white">⭐</span>
+            <div class="w-16 border-b-4 border-gray-700"></div>
+        </div>
+        <form action="#" class="container" max-w-d mx-auto px-6 space-y-12>
+            <div>
+                <label for="fullname" class="block text-gray-500 text-lg capitalize px-64">full name</label>
+                <input type="text" id="full-name" name="full-name"
+                    class="w-full border- b border-gray-300 focus:outline-none focus:border-gray-500 py-2 px-64">
+            </div>
+            <div>
+                <label for="email address" class="block text-gray-500 text-lg capitalize px-64">email address</label>
+                <input type="email" id="e-mail" name="e-mail"
+                    class="w-full border- b border-gray-300 focus:outline-none focus:border-gray-500 py-2 px-64">
+            </div>
+            <div>
+                <label for="phone number" class="block text-gray-500 text-lg capitalize px-64">phone number</label>
+                <input type="text" id="number" name="phone number" 
+                    class="w-64 justify-center border- b border-gray-300 focus:outline-none focus:border-gray-500 py-2 px-64">
+            </div>
+            <div>
+                <label for="message" class="block text-gray-500  text-lg capitalize px-64">message</label>
+                <input type="text"
+                    class="w-124 border-b border-gray-300 focus:outline-none focus:border-gray-500 py-2 px-64">
+            </div>
+        </form>
+
+        <div class="text-center">
+            <button
+                class="bg-green-500 text-white rounded-xl uppercase mx-4 my-3 px-20 py-2 border-1 border-green-500 ">
+                send
+            </button>
+        </div>
+    </section>
+
+    <section class="bg-gray-600 mx-10 px-64 py-6 text-white display-flex flex-right flex box justify-evenly">
+        <div class="container px-6 w-64">
+            <h1 class="uppercase text-4xl font-bold py-5">location</h1>
+            <p class="lowercase text-lg">2215 John Daniel Drive
+                Clark, MO 65243 P.O BOX 122343</p>
+        </div>
+        <div class="container px-6 w-64">
+            <h1 class="uppercase text-4xl font-bold py-5">reach us</h1>
+             <div class="w-64 ">※ ⁜ ● ₯ ₳</div>
+        </div>
+    </section>
+
+
+
+
+</body>
+
+</html>
